@@ -1,9 +1,14 @@
-# Ask the user for their current age
-current_age = int(input("How old are you? "))
+# Step 1: User Input for Financial Details
+monthly_income = float(input("Enter your monthly income: "))
+monthly_expenses = float(input("Enter your total monthly expenses: "))
 
-# Calculate the user's age in the year 2050
-future_age = current_age + 27
+# Step 2: Calculate Monthly Savings
+monthly_savings = monthly_income - monthly_expenses
 
-# Print the result
-print(f"In 2050, you will be {future_age} years old.")
- 
+# Step 3: Project Annual Savings with Interest
+annual_savings = monthly_savings * 12
+projected_savings_with_interest = annual_savings + (annual_savings * 0.05)
+
+# Step 4: Output Results
+print(f"Your monthly savings are: ${monthly_savings:.2f}.")
+print(f"Projected savings after one year, with interest, is: ${projected_savings_with_interest:.2f}.")
