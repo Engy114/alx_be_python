@@ -6,4 +6,4 @@ seconds = hours * 3600
 
 # Print the result in the desired format
 print(f"{hours} hour(s) is {seconds} seconds.")
-
+ 

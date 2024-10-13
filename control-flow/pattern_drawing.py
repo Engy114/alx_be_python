@@ -13,3 +13,4 @@ while row < size:
     print()
     # Increment the row counter
     row += 1
+ 
